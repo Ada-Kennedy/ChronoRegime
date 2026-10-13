@@ -22,7 +22,7 @@ ChronoRegime studies this gap: models must assess whether a future fact is predi
 
 To address this challenge, we propose **Confidence-Aware Temporal Reasoning (CTR)**. CTR models temporal dynamics to estimate future predictability and uses this assessment to guide answer commitment, aiming to reduce unsupported predictions.
 
-![Overview of the CTR framework](figs/framework.png)
+![Overview of the CTR framework](figs/CTR-framework.png)
 
 ## Repository contents
 
