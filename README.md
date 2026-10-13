@@ -10,6 +10,20 @@ This repository contains the paper PDF and the accompanying dataset files provid
 
 ChronoRegime studies whether historical temporal evidence justifies committing to a future factual answer. The paper introduces Confidence-Aware Temporal Reasoning (CTR), which estimates future predictability from temporal dynamics and regulates answer commitment accordingly.
 
+## Motivation
+
+Can historical evidence justify an answer about the future? Some facts remain stable, others change at predictable intervals, and some evolve unpredictably. Yet LLMs often give confident answers even when the available evidence cannot determine the future state.
+
+ChronoRegime studies this gap: models must assess whether a future fact is predictable from historical evidence and decide when to answer or abstain.
+
+![Motivation for ChronoRegime](figs/chronoregime.png)
+
+## Framework Overview
+
+To address this challenge, we propose **Confidence-Aware Temporal Reasoning (CTR)**. CTR models temporal dynamics to estimate future predictability and uses this assessment to guide answer commitment, aiming to reduce unsupported predictions.
+
+![Overview of the CTR framework](figs/framework.png)
+
 ## Repository contents
 
 ```text
